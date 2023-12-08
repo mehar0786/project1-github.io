@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image1.jpg);
+    width:100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;   
+}
+.menubar{
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    opacity: 0.5;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menubar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+    opacity: 1;
+}
